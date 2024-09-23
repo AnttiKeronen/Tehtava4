@@ -37,12 +37,13 @@ h1 {
   width: 100%;
 }
 
-@media (min-width: 800px) {
-  .show-data {
-    display: flex;
+@media (max-width: 800px) {
+  .show-data img {
+    margin: auto;
   }
 
-  .show-info {
+  .show-info p {
+    text-align: center;
     padding: 10px;
   }
 }
