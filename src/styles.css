@@ -26,15 +26,17 @@ h1 {
   padding: 10px;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.show-data img {
   display: block;
-  width: 100%;
 }
 
-.show-info {
-  width: 100%;
+@media (min-width: 800px) {
+  .show-data {
+    display: flex;
+  }
+
+  .show-info {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 800px) {
