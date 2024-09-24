@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #eceff1;
@@ -29,6 +31,10 @@ h1 {
   display: block;
 }
 
+.show-info {
+  font-weight: 400;
+}
+
 @media (min-width: 800px) {
   .show-data {
     display: flex;
@@ -36,6 +42,7 @@ h1 {
 
   .show-info {
     padding: 10px;
+    font-weight: 500;
   }
 }
 
@@ -47,5 +54,17 @@ h1 {
   .show-info p {
     text-align: center;
     padding: 10px;
+    font-weight: 300;
   }
+}
+
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+strong {
+  font-weight: 900;
 }
